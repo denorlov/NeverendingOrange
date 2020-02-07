@@ -1,0 +1,23 @@
+﻿label start:
+    play music "audio/Земляне - Земля в иллюминаторе.mp3"
+
+    show sky at rool_sky
+    show shi at shine
+    show sta at rain_stars1
+    show sta2 at rain_stars2
+    show gro
+
+    show girl grin at center with dissolve
+    show girl at left with move
+    "soft talking"
+    $ girl_mood = "upset"
+    show girl
+    "upset talking"
+    $ girl_mood = "smile"
+    show girl
+    "smile talking"
+    show girl wow
+    "wow"
+
+    stop music
+    return
