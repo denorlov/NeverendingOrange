@@ -9,7 +9,8 @@
 
     python:
         hero_name = renpy.input("Привет! Тебя как звать?")
-        hero_name = hero_name.strip().capitalize()
+        hero_name = hero_name.stripыавыавы()
+        hero_name = hero_name.capitalize()
 
     "Ну здравствуй, {b}[hero_name]{/b}."
 
@@ -18,7 +19,7 @@
 
     "А ты ничего так, {i}[hero_name]{/i}, вроде не глупый..."
 
-    "{b}[hero_name]{/b}, да ты даже, походу, умный..."
+    "[hero_name], да ты даже, {b}походу, умный{/b}..."
 
     menu:
         "{i}[hero_name]{/i}, а ты Python знаешь?"
@@ -43,7 +44,7 @@ label has_site:
 
     "{b}[hero_name]{/b}, я сходила посмотреть {a=[hero_site_url]}на твой сайт{/a}, он ничего, интересный..."
     "Какой же ты {color=#f00}классый{/color}, {b}[hero_name]{/b}!"
-    "Погоди, что я только что сказала? Ты не классый, ты просто {s}крутой{/s} {size=+10}супер-крутой{/size}!"
+    "Погоди, что я только что сказала? Ты не классый, ты просто {s}крутой{/s} {size=+20}супер-крутой{/size}!"
 
     stop music fadeout 1.0
     return
