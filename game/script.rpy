@@ -10,7 +10,8 @@ label start:
     show sta2 at rain_stars2
     show gro
 
-    show girl at center with dissolve
+    show girl at center
+    with dissolve
 
     show girl at left
     with move

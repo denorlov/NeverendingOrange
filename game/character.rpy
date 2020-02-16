@@ -39,13 +39,15 @@ image girl eyes wow:
     "fm01/fm01-eyes-wow.png"
     zoom 0.3
 
-image girl = Composite((400, 720),
+image girl = Composite(
+    (400, 720),
     (0,0), "girl body",
     (0,0), "girl mouth talking",
     (0,0), "girl eyes",
 )
 
-image girl wow = Composite((400, 720),
+image girl wow = Composite(
+    (400, 720),
     (0,0), "girl body",
     (0,0), "girl mouth wow",
     (0,0), "girl eyes wow",
