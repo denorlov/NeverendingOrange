@@ -1,10 +1,11 @@
 screen select_character_screen():
-    textbutton _("\u21e6"):
+    textbutton _("\u219e"):
         xalign 0.25 ypos 0.5
         text_size 70
+        text_outlines [ (10, "#1111CC", 0, 0) ]
         action Call("change_to_next_left")
 
-    textbutton _("\u21e8"):
+    textbutton _("\u21ac"):
         xalign 0.75 ypos 0.5
         text_size 70
         action Call("change_to_next_right")
